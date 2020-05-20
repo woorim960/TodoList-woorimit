@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background-color: rgba(255, 249, 225, 0.76);
+}
+
+.main {
+  font-weight: 900;
+  margin: 10px 5px;
+}
+
+.btn {
+  padding: 5px;
+  border: solid 1px rgb(112, 83, 39);
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+th {
+  padding: 10px;
+  background-color: bisque;
+}
+
+td {
+  font-weight: 400;
+  background-color: whitesmoke;
+}
+
+.main #title {
+  font-weight: 900;
+  padding-bottom: 5px;
+  border-bottom: solid 1px rgb(173, 173, 173);
+}
+
+.main .text {
+  font-weight: 900;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px 5px;
+  border: solid 1px rgb(112, 83, 39);
+
+}
+
+.main .btn {
+  width: 50px;
+}
+
+.main .btn:hover {
+  background-color: rgb(221, 239, 255);
+  cursor: pointer;
+}
+
+.main .btn:active {
+  transform: scale(1.02);
+}
+
+.discription {
+  border-top: dotted 1px rgb(112, 83, 39);
+  /* padding: 20px 5px; */
+}
+
+.discription .table {
+  width: 400px;
+  margin: 10px 5px;
+  border: solid 1px rgb(112, 83, 39);
+  border-collapse: collapse;
+}
+.discription .table .head tr th {
+  border: solid 1px rgb(112, 83, 39);
+}
+.discription .table .body tr td{
+  text-align: center;
+  border: solid 1px rgb(112, 83, 39);
+  padding: 5px 0;
+}
+
+.end {
+  color: rgba(173, 173, 173, 0.623);
+  text-decoration: line-through;
+}
+
